@@ -30,8 +30,8 @@ const firebaseConfig = {
   measurementId: "G-MMX5BNB749"
 };
 // 2) Deve ser exatamente o mesmo email usado em ADMIN_EMAIL_AQUI nas regras.
-const ADMIN_EMAIL = "ADMIN_EMAIL_AQUI";
-const FIREBASE_READY = firebaseConfig.projectId !== "COLE_AQUI";
+const ADMIN_EMAIL = "pedfonseca@gmail.com";
+const FIREBASE_READY = firebaseConfig.projectId !== "presencacoro";
 let auth=null, db=null, authUser=null, listeners=[];
 if(FIREBASE_READY){
   firebase.initializeApp(firebaseConfig);
